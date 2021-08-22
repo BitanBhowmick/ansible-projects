@@ -11,4 +11,5 @@ sudo add-apt-repository --yes --update ppa:ansible/ansible
 sudo apt install ansible
 ansible --version
 ```
+3. Create the inventory file and update the details.
 
