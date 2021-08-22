@@ -1,11 +1,14 @@
 # ansible-projects
 Ansible Scripts for automation
 
-How to install and setup Ansible?
 1. Launch an EC2 instance with Ubuntu in it.
-2. Follow the below commands:
-  i. sudo apt update
-  ii. sudo apt install software-properties-common
-  iii. sudo add-apt-repository --yes --update ppa:ansible/ansible
-  iv. sudo apt install ansible
-3. Check if Ansible is properly installed or not using the command : "ansible --version"
+2. Follow the below steps to install Ansible in the server.
+
+```sh
+sudo apt update
+sudo apt install software-properties-common
+sudo add-apt-repository --yes --update ppa:ansible/ansible
+sudo apt install ansible
+ansible --version
+```
+
