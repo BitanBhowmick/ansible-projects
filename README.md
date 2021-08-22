@@ -1,4 +1,4 @@
-# ansible-projects
+# Ansible scripts
 Ansible Scripts for automation
 
 1. Launch an EC2 instance with Ubuntu in it.
